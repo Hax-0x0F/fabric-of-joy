@@ -6,7 +6,7 @@ hash = "f0b7af943b908e41876ad17a73d31718dfd02404873161e17126ba35129440c7"
 
 [[files]]
 file = "mods/cameraoverhaul.pw.toml"
-hash = "551f129304b9ab19d4c199e70ea5913dda245fe368985c5128a08d94b573a4ab"
+hash = "0a9898846a8d2e683f378a033da718c1ddc19eaaf422604d77f6de76d36a489d"
 metafile = true
 
 [[files]]
@@ -106,17 +106,17 @@ metafile = true
 
 [[files]]
 file = "mods/xaeroplus.pw.toml"
-hash = "87b6d0efd1d9a3a773ed384bf901d80f6b9653c6817ab1f2cf3568df5ced44f9"
+hash = "9634d746c3589372f1b0d38556f340564b3e65393ae2457d6e4fb15f6e261cd9"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "72ddbc276a2fd7aca5443c0501a59ec96d0d6090917a99a30dc71abd0dd3785d"
+hash = "ae2321b4aaafeeefd83d37b0268a18b02f7efd6b6a40b5873432d8f4ff3bf95b"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "f3b0dc8728401319a897b51835b2b65898dc3b769aa1f1ed0a1f513bd91c409a"
+hash = "8aac4bde39fa5392fddd8e26c7254f975e6982c9791d2ec70ad9e6ca93f69f60"
 metafile = true
 
 [[files]]
