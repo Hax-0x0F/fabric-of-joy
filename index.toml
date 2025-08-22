@@ -45,8 +45,18 @@ hash = "fbf9806c22ee5bccbe08f7dec15b742f5ae3a70caf186d6dce0d42f28790f559"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "1e4e37a781f247c943ccfd23d3a6cdf317297a4ef43743fe5141d1f16e81876b"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "ce1a109ba7d2637596ab6b7c001716437e1bef89f337dc3fb31ca950a46e79c3"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "f4360b358a2607a715e0a361872b4d08c85e872f2f86c6ddf4c531fa6ff7cd25"
 metafile = true
 
 [[files]]
@@ -65,6 +75,11 @@ hash = "b5bd65035ac700f23a707d136e0150bfe950faa722edb384d6507ddb7f674f1c"
 metafile = true
 
 [[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "e3eabb9d68f1b7bfc48bdd7846d0b743f3b5fbeaeebf63fecf1ced3d79acdc7e"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "1745f4ec1732e16be5f2c88780a66ca2a94c76c06c5e862db0b2c6cf63b16a47"
 metafile = true
@@ -72,6 +87,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "a6948eb25808d55a8dc3b9a64999181ebae738c3679ced2981c7c1ec34b9b0b6"
+metafile = true
+
+[[files]]
+file = "mods/tough-as-nails.pw.toml"
+hash = "b9cfed15096f58b5aa41aefebbd14136712e36c8a40eff415025e93c2bbbcac9"
 metafile = true
 
 [[files]]
