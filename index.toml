@@ -5,19 +5,44 @@ file = "README.md"
 hash = "f0b7af943b908e41876ad17a73d31718dfd02404873161e17126ba35129440c7"
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "0fb3ed7eaa615380d4d7844f0225f4ec4a6509cdfe01920387ed7b2bd923e4d7"
+metafile = true
+
+[[files]]
 file = "mods/cameraoverhaul.pw.toml"
 hash = "0a9898846a8d2e683f378a033da718c1ddc19eaaf422604d77f6de76d36a489d"
 metafile = true
 
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
-hash = "ea61c804560707997c5fef3f644f75903cebf272ac5a8a8a9b8761b8364e82fe"
+hash = "974049895ae886659595771f83bd5a03da5b969b402a029694a2978d1ffd7aa0"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "a216e613b5ada8a83972394c8b52331388f6d3e41187a04c3bced3f1752bea70"
 metafile = true
+
+[[files]]
+file = "mods/config/sereneseasons/fertility.toml"
+hash = "722f7545a5a592f0aed25ae8dd0a4f53f7abaf0bb53da96417d87e9096e75631"
+
+[[files]]
+file = "mods/config/sereneseasons/seasons.toml"
+hash = "e4f396ea7616c87633e8f0ad6985f1d8e5be0b7d98461afe26776a992d01f24e"
+
+[[files]]
+file = "mods/config/toughasnails/client.toml"
+hash = "641803fff6c7b2190752d423e38f9013467cfadf0c3dff4220370271d60ff2d0"
+
+[[files]]
+file = "mods/config/toughasnails/temperature.toml"
+hash = "edcd1bd9a723edd840d3399280e956a56ba197224737e90c5f6129c459d757b8"
+
+[[files]]
+file = "mods/config/toughasnails/thirst.toml"
+hash = "9625732884f7db23c110b07023da03749e4865e9d6af808b6fe78457dafe9bd3"
 
 [[files]]
 file = "mods/debugify.pw.toml"
@@ -32,6 +57,16 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "dff937930734d00e3cd2c644d20d5015df3ad53cc9d23fae2704326774cadbad"
+metafile = true
+
+[[files]]
+file = "mods/essential-commands.pw.toml"
+hash = "e4104c5878b48368908e67cd0710c119b94652365c4e568e4e2ec0734a06e9dd"
+metafile = true
+
+[[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "d246630b697cddeda5d6a3215b078f49d663c079b71acdbbdd1c50eb83505ca9"
 metafile = true
 
 [[files]]
@@ -65,13 +100,28 @@ hash = "e10c94949bb58b8cfa9993a9f60c9283d5858d4d55fc450dbff2953644f45047"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "6eea5e1db3dbca126b82f211bf0d2fcf2cf13097023fdef3dd668e48581a73d0"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "bf387fb939f9a4a7f0dbd45542c9681244785f8f0daf83eb3b7d3a9a33709ec6"
 metafile = true
 
 [[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "0993352e081593fca386a8a4e6473ece541a27e018c8384239f27f79d73133a0"
+metafile = true
+
+[[files]]
 file = "mods/polymer.pw.toml"
 hash = "b5bd65035ac700f23a707d136e0150bfe950faa722edb384d6507ddb7f674f1c"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "5dff8bca658ae787c75fd2a37a40c8512a5fbc8a2421d106f94e08c8640b9075"
 metafile = true
 
 [[files]]
@@ -90,8 +140,18 @@ hash = "a6948eb25808d55a8dc3b9a64999181ebae738c3679ced2981c7c1ec34b9b0b6"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "a21afaf5777783244b77cd9b4333759bfa94ddd3ddc359f1a00355100430f177"
+metafile = true
+
+[[files]]
 file = "mods/tough-as-nails.pw.toml"
 hash = "b9cfed15096f58b5aa41aefebbd14136712e36c8a40eff415025e93c2bbbcac9"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "9239555187f50289032bcaa6285bd8766ea465dc8e0f9015a22314ed8078cae5"
 metafile = true
 
 [[files]]
@@ -102,6 +162,11 @@ metafile = true
 [[files]]
 file = "mods/universal-graves.pw.toml"
 hash = "3a3eac5ffe0a6299390ee43c0dcefacf1884164949ccbf32d9e862e4de4beecb"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "07b6eae147b1e041132420c4731e6e6449b99ec8fcf6251b5ce5ce08638fa322"
 metafile = true
 
 [[files]]
