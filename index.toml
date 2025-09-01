@@ -45,6 +45,11 @@ file = "mods/config/toughasnails/thirst.toml"
 hash = "9625732884f7db23c110b07023da03749e4865e9d6af808b6fe78457dafe9bd3"
 
 [[files]]
+file = "mods/dark-loading-screen.pw.toml"
+hash = "716b671d0b15ea17c788c571620eac83207bb2b6e8dbe0d33319838478f21efc"
+metafile = true
+
+[[files]]
 file = "mods/debugify.pw.toml"
 hash = "937acae581d8c4340d141446a7adb5b3b1915130fd483bee067d45aade834a8a"
 metafile = true
