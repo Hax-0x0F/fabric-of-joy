@@ -25,26 +25,6 @@ hash = "a216e613b5ada8a83972394c8b52331388f6d3e41187a04c3bced3f1752bea70"
 metafile = true
 
 [[files]]
-file = "mods/config/sereneseasons/fertility.toml"
-hash = "722f7545a5a592f0aed25ae8dd0a4f53f7abaf0bb53da96417d87e9096e75631"
-
-[[files]]
-file = "mods/config/sereneseasons/seasons.toml"
-hash = "e4f396ea7616c87633e8f0ad6985f1d8e5be0b7d98461afe26776a992d01f24e"
-
-[[files]]
-file = "mods/config/toughasnails/client.toml"
-hash = "641803fff6c7b2190752d423e38f9013467cfadf0c3dff4220370271d60ff2d0"
-
-[[files]]
-file = "mods/config/toughasnails/temperature.toml"
-hash = "edcd1bd9a723edd840d3399280e956a56ba197224737e90c5f6129c459d757b8"
-
-[[files]]
-file = "mods/config/toughasnails/thirst.toml"
-hash = "9625732884f7db23c110b07023da03749e4865e9d6af808b6fe78457dafe9bd3"
-
-[[files]]
 file = "mods/dark-loading-screen.pw.toml"
 hash = "716b671d0b15ea17c788c571620eac83207bb2b6e8dbe0d33319838478f21efc"
 metafile = true
