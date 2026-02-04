@@ -5,6 +5,18 @@ file = "README.md"
 hash = "f0b7af943b908e41876ad17a73d31718dfd02404873161e17126ba35129440c7"
 
 [[files]]
+file = "config/toughasnails/client.toml"
+hash = "641803fff6c7b2190752d423e38f9013467cfadf0c3dff4220370271d60ff2d0"
+
+[[files]]
+file = "config/toughasnails/temperature.toml"
+hash = "ee4ad612b1d02d15fae90f7a1a79f9381d451c1fefed4c19d9646104365a485b"
+
+[[files]]
+file = "config/toughasnails/thirst.toml"
+hash = "a4a7683816e05e98805421f387015e73ee7544f7f5dce3febe5f2388b065352d"
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "e71c04679ff75573cd8ef1003eb167830f794b8979f2bdd3c99d28793f2918b0"
 metafile = true
@@ -28,18 +40,6 @@ metafile = true
 file = "mods/cloth-config.pw.toml"
 hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
 metafile = true
-
-[[files]]
-file = "mods/config/toughasnails/client.toml"
-hash = "641803fff6c7b2190752d423e38f9013467cfadf0c3dff4220370271d60ff2d0"
-
-[[files]]
-file = "mods/config/toughasnails/temperature.toml"
-hash = "ee4ad612b1d02d15fae90f7a1a79f9381d451c1fefed4c19d9646104365a485b"
-
-[[files]]
-file = "mods/config/toughasnails/thirst.toml"
-hash = "a4a7683816e05e98805421f387015e73ee7544f7f5dce3febe5f2388b065352d"
 
 [[files]]
 file = "mods/dark-loading-screen.pw.toml"
