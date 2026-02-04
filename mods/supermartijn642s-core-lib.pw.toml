@@ -1,13 +1,13 @@
 name = "SuperMartijn642's Core Lib"
-filename = "supermartijn642corelib-1.1.18e-fabric-mc1.21.7.jar"
+filename = "supermartijn642corelib-1.1.20-fabric-mc1.21.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rOUBggPv/versions/EogAG9XC/supermartijn642corelib-1.1.18e-fabric-mc1.21.7.jar"
+url = "https://cdn.modrinth.com/data/rOUBggPv/versions/SZOjxftk/supermartijn642corelib-1.1.20-fabric-mc1.21.jar"
 hash-format = "sha512"
-hash = "be781f54a8d875bb942552c6f7d41ad658aef39635b6a4ef1c10bc1097313f69de860e4fade7a32c9cd241ae8a2ef8a08b06d6158eeb15c084bed173647ec607"
+hash = "148f4807da92ab92c165b3ad0f3990c15aa14df69cba9b8f616b26733d4d31a093b811a6e3141b9f31bc1df447a5e91fcb4b92abfd8e1f2aec756b45866b3627"
 
 [update]
 [update.modrinth]
 mod-id = "rOUBggPv"
-version = "EogAG9XC"
+version = "SZOjxftk"
