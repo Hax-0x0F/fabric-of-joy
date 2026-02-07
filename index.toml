@@ -82,8 +82,18 @@ hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
 metafile = true
 
 [[files]]
+file = "mods/fallingtree.pw.toml"
+hash = "7d61ad815f97afb27f7e97475e80376aa19fecf25a1b04a500a4c3a6e5055973"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
 metafile = true
 
 [[files]]
@@ -122,6 +132,11 @@ hash = "f53b91397b8a969e843af8772db448ab1c9bc556233a3b26266c52cfa77950fe"
 metafile = true
 
 [[files]]
+file = "mods/niftycarts.pw.toml"
+hash = "421431bdba887c114dffd4be28fcdc0e6dddbfeadc518f5d02d55b8f3d575ece"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
 metafile = true
@@ -137,8 +152,18 @@ hash = "98da190eb33a9f81e8f135e755b3c2dea15de442ae29a4959976812a8d880fed"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+hash = "8a64fdd5384cd26c91475a423f3bec24dd4d98796df7683a5070ef105d421ba4"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "f013040d2544856ca9f8fe4e07e040aa8a78c87ace3426743a8429d73cba81a3"
+metafile = true
+
+[[files]]
+file = "mods/seasonhud-fabric.pw.toml"
+hash = "6d87d6607c4cf1baba1c2450cecff353cf40b1baa5529aa453f08d5859361ec7"
 metafile = true
 
 [[files]]
@@ -184,6 +209,11 @@ metafile = true
 [[files]]
 file = "mods/universal-graves.pw.toml"
 hash = "695176ca996e639044d0d526cd6c56a95c9897e85e7a8119a2d14a712f755733"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+hash = "39426bfeeab22ea17f94fd3904dd9b78f9a3c9b4ddcb732b734ddbfd0e3568af"
 metafile = true
 
 [[files]]
