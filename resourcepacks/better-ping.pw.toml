@@ -1,0 +1,13 @@
+name = "Better Ping"
+filename = "colored ping 1.16.2-1.21.7.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jKHR4Edu/versions/dSi9nipW/colored%20ping%201.16.2-1.21.7.zip"
+hash-format = "sha512"
+hash = "20d53b832d16f4d37058169edf681b62c86fddc50be33271aa8cd01c0bcbbad3a4f6dbd5463a7bd33687cff8b8d7e953706db11ce4ae055e79177849d01eb941"
+
+[update]
+[update.modrinth]
+mod-id = "jKHR4Edu"
+version = "dSi9nipW"
