@@ -182,6 +182,11 @@ hash = "f013040d2544856ca9f8fe4e07e040aa8a78c87ace3426743a8429d73cba81a3"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "d3f633dd12cd039a4e58dd398d1c80a324b0d78b9da5b3972b69640bfed211ed"
+metafile = true
+
+[[files]]
 file = "mods/seasonhud-fabric.pw.toml"
 hash = "6d87d6607c4cf1baba1c2450cecff353cf40b1baa5529aa453f08d5859361ec7"
 metafile = true
