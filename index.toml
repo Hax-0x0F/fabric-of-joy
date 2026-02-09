@@ -32,6 +32,11 @@ hash = "a9f6cf1a98bc318c887b672aecaff6ffdbf33a6ec06af5f2686b292988d0846e"
 metafile = true
 
 [[files]]
+file = "mods/better-ladders.pw.toml"
+hash = "2ee6953247f3421cc2985f40ac87ee09781799d5b196bcd62dadc6e4a3e0995c"
+metafile = true
+
+[[files]]
 file = "mods/cameraoverhaul.pw.toml"
 hash = "c25b6e16bc26e12ea9245ebdbafa581ad24928691ae2bcd62e786422786e28fe"
 metafile = true
@@ -94,6 +99,21 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes-beekeeper-hut-fabric.pw.toml"
+hash = "4883fc36d8c43365118841929afc5ffb95a0cae6ee5c56b4ae3126fed3cea345"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes-flowery-mooblooms-fabric.pw.toml"
+hash = "ca11bc13434dffcac0cb2500e3ea2eb62bb722f36d0d56ffbc1dfbe5d4315bbc"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes.pw.toml"
+hash = "bf1b6104f87a89ed7bc59ff839e0e5e588db035f8c68e8375790bfed0eb45375"
 metafile = true
 
 [[files]]
@@ -187,6 +207,16 @@ hash = "04d5cccae8671610cfcff582f7c1b490ba09622a476b53421cd078eb322f27ae"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "ecfccbecbcd49d3cf878f4df49adc526c4185cc8d8d5c32e292dd43f95a17ab9"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
+metafile = true
+
+[[files]]
 file = "mods/tough-as-nails.pw.toml"
 hash = "b5a53eb85c4b47d58d53f0bb63ae1f81b95e15f405825e72eb6d669c07702ce0"
 metafile = true
@@ -234,4 +264,9 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "af20070dd9497817a83162c17b181a0a44f7213ea302d059a81c5aed02d0c877"
+metafile = true
+
+[[files]]
+file = "resourcepacks/better-ping.pw.toml"
+hash = "2474508effe57fdb82b181de3b9c8402169a927bea5db170b5669e637b98b369"
 metafile = true
