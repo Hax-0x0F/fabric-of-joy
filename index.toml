@@ -37,6 +37,11 @@ hash = "2ee6953247f3421cc2985f40ac87ee09781799d5b196bcd62dadc6e4a3e0995c"
 metafile = true
 
 [[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "ddbb4bf26d15027847e52f5b30479470299b9a8c687697309f0535d658b9944b"
+metafile = true
+
+[[files]]
 file = "mods/cameraoverhaul.pw.toml"
 hash = "c25b6e16bc26e12ea9245ebdbafa581ad24928691ae2bcd62e786422786e28fe"
 metafile = true
@@ -209,6 +214,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "04d5cccae8671610cfcff582f7c1b490ba09622a476b53421cd078eb322f27ae"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "e35593590fe988653baebae4638f6c93b5d822351274955cc1288b34fe5429fe"
 metafile = true
 
 [[files]]
