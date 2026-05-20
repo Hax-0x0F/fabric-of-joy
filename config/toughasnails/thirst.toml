@@ -18,4 +18,4 @@
 	#Remove source blocks when filling the canteen.
 	remove_source_blocks = false
 	#Enable or disable hand drinking.
-	enable_hand_drinking = false
+	enable_hand_drinking = true
