@@ -142,11 +142,6 @@ hash = "5564dbbe8adc0ba450afc6a1c3eef82f183a53ede5f3b1de0bc6ca320aadc5e9"
 metafile = true
 
 [[files]]
-file = "mods/lithostitched.pw.toml"
-hash = "38d5a309095c272b7cb305e63bea744ab60052b36bda04051bd48914386ddbf1"
-metafile = true
-
-[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "d917697e84a95f857a447d26f94d93169a5a62176c93193cdf80c8d8bc1e280a"
 metafile = true
@@ -217,16 +212,6 @@ hash = "04d5cccae8671610cfcff582f7c1b490ba09622a476b53421cd078eb322f27ae"
 metafile = true
 
 [[files]]
-file = "mods/tectonic.pw.toml"
-hash = "ecfccbecbcd49d3cf878f4df49adc526c4185cc8d8d5c32e292dd43f95a17ab9"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
-hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
-metafile = true
-
-[[files]]
 file = "mods/tough-as-nails.pw.toml"
 hash = "b5a53eb85c4b47d58d53f0bb63ae1f81b95e15f405825e72eb6d669c07702ce0"
 metafile = true
@@ -257,26 +242,6 @@ hash = "d9b210470eeaca6109002dcc8c1442dbbef5468bbf7be516651e7fc25b3d5c5e"
 metafile = true
 
 [[files]]
-file = "mods/xaeroplus.pw.toml"
-hash = "85e1101fd643ddd8ec7def25c47f83ed8274d338da6f0e2eb5aa0fc313c994cf"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-minimap.pw.toml"
-hash = "120b1b5e775ec88fb6b6a3c11f4d3685a2b28d0badfb73b3606f946599d6b587"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-world-map.pw.toml"
-hash = "80d14aa6af38caa8f61f2bd1e98744f6aeda9c0701684ed80422ded03ebab640"
-metafile = true
-
-[[files]]
 file = "mods/yacl.pw.toml"
 hash = "af20070dd9497817a83162c17b181a0a44f7213ea302d059a81c5aed02d0c877"
-metafile = true
-
-[[files]]
-file = "resourcepacks/better-ping.pw.toml"
-hash = "2474508effe57fdb82b181de3b9c8402169a927bea5db170b5669e637b98b369"
 metafile = true
