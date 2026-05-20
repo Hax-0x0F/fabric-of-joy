@@ -14,7 +14,7 @@ hash = "ee4ad612b1d02d15fae90f7a1a79f9381d451c1fefed4c19d9646104365a485b"
 
 [[files]]
 file = "config/toughasnails/thirst.toml"
-hash = "a4a7683816e05e98805421f387015e73ee7544f7f5dce3febe5f2388b065352d"
+hash = "687fd1fd0c5615bcc376800cd03d3c06060d8cafd2bbefe1fbb36956d9a17da0"
 
 [[files]]
 file = "mods/aether.pw.toml"
