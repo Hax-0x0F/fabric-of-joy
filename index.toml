@@ -27,6 +27,11 @@ hash = "17fc9c6cab5ae0ea6973440f143ad6ffa4e5d373749c80077b631dbbe4df3f3b"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "1102440dd2533ba3a154419bb95ff1f81b858201eb0c44d2a2eea486c74e565a"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "a9f6cf1a98bc318c887b672aecaff6ffdbf33a6ec06af5f2686b292988d0846e"
 metafile = true
@@ -39,6 +44,11 @@ metafile = true
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "ddbb4bf26d15027847e52f5b30479470299b9a8c687697309f0535d658b9944b"
+metafile = true
+
+[[files]]
+file = "mods/brb.pw.toml"
+hash = "d99fd98e6daf4ab8474c727d3e0a653ac800a714b3ef5799e7950129b4f255fe"
 metafile = true
 
 [[files]]
@@ -132,6 +142,11 @@ hash = "a104f2f6044d43bbc5a5badc6f589b2f6f5a1b9c9e47e00dfbad5061aa3b51f4"
 metafile = true
 
 [[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "2600fb5f2efa6dffd1bcc04eea4c2646c101da4320da0c88d5616d5c2f41a439"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "de9842a74bad2677a92f96157171b3108dcacb6a517d395006a1f158d5f46bbb"
 metafile = true
@@ -139,6 +154,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "37a45ed98e4edc9c8224cb06f72be8914fae69687601d4e15009f1cb9f27563c"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "72a71d1b2ea9a084f7df8a6ea3054912144736eb24d887c2e4c879971f2af959"
 metafile = true
 
 [[files]]
@@ -154,6 +174,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "d917697e84a95f857a447d26f94d93169a5a62176c93193cdf80c8d8bc1e280a"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+hash = "a34f8acded95ca6c25a4ced3eebec0f9f7095b9ead2c85ac7b5ec40a14e057c7"
 metafile = true
 
 [[files]]
@@ -219,6 +244,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "04d5cccae8671610cfcff582f7c1b490ba09622a476b53421cd078eb322f27ae"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "b6099a2e0e75ae3103bd15dd16ec86d4eea112bc16c1aaeac4dce78716376e53"
 metafile = true
 
 [[files]]
