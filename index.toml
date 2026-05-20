@@ -222,6 +222,11 @@ hash = "e35593590fe988653baebae4638f6c93b5d822351274955cc1288b34fe5429fe"
 metafile = true
 
 [[files]]
+file = "mods/totw-modded.pw.toml"
+hash = "f7c14947970c8de4dfbaf32e48cba47cf504fccaf89562d078f7eebab45d1e6a"
+metafile = true
+
+[[files]]
 file = "mods/tough-as-nails.pw.toml"
 hash = "b5a53eb85c4b47d58d53f0bb63ae1f81b95e15f405825e72eb6d669c07702ce0"
 metafile = true
