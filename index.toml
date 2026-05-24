@@ -112,6 +112,11 @@ hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "337d97b990f76c91584b12600651ae7bd47a0824e45070b3d9330b0922149fc0"
+metafile = true
+
+[[files]]
 file = "mods/fabricproxy-lite.pw.toml"
 hash = "b1a2f33743504db0099a8811b5a923ce56261d5aff2770d3a8812654dbd5e85d"
 metafile = true
@@ -172,8 +177,18 @@ hash = "72a71d1b2ea9a084f7df8a6ea3054912144736eb24d887c2e4c879971f2af959"
 metafile = true
 
 [[files]]
+file = "mods/kits.pw.toml"
+hash = "4e7785b7d421dfe18e5367a948d299fd91b3b623260a2edd2bd0dcfc0bd7ae0d"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "07f04b4589c6ffe170332cae7d62badefa9ea7753d9621dbdb968c937a928f6e"
+metafile = true
+
+[[files]]
+file = "mods/ledger.pw.toml"
+hash = "c12090d1aa1239085a4b3d790900823ad14a40eacbd8fa42d9626d22995a8a80"
 metafile = true
 
 [[files]]
@@ -249,6 +264,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "be0c8881821da897824770b2a71f0f3765a233eda69b295fa5b92ffe8a25014c"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "4ea85fa7d750bf5a167fe9652f2ac896d12ab068dacb8b04539e316ba5b74042"
 metafile = true
 
 [[files]]
