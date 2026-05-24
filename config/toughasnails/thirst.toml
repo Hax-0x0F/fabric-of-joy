@@ -4,13 +4,13 @@
 
 [drink_options]
 	#Hydration restored from drinking with hands.
-	hand_drinking_hydration = 0.1
+	hand_drinking_hydration = 0.25
 	#Thirst restored from drinking with hands.
-	hand_drinking_thirst = 1
+	hand_drinking_thirst = 2
 
 [toggles]
 	#Prevent sprinting when thirsty.
-	thirst_prevent_sprint = true
+	thirst_prevent_sprint = false
 	#Prevent health regeneration when thirsty.
 	thirst_prevent_health_regen = true
 	#Enable or disable thirst.

@@ -1,8 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".claude/settings.local.json"
+hash = "7adf9fe971b8bea29dd0c333e93263a0cf1d230f4f7ae19118b9675eafb083bc"
+
+[[files]]
 file = "README.md"
 hash = "f0b7af943b908e41876ad17a73d31718dfd02404873161e17126ba35129440c7"
+
+[[files]]
+file = "config/sereneseasons/seasons.toml"
+hash = "1815226e35087883383adf5d64f8b1af427a4f8818470cd963eeff436f36d436"
 
 [[files]]
 file = "config/toughasnails/client.toml"
@@ -10,11 +18,11 @@ hash = "641803fff6c7b2190752d423e38f9013467cfadf0c3dff4220370271d60ff2d0"
 
 [[files]]
 file = "config/toughasnails/temperature.toml"
-hash = "ee4ad612b1d02d15fae90f7a1a79f9381d451c1fefed4c19d9646104365a485b"
+hash = "58da5164af9d605fd1bb124db4c693c8926e688e4143e42cedd02a05613c7c67"
 
 [[files]]
 file = "config/toughasnails/thirst.toml"
-hash = "687fd1fd0c5615bcc376800cd03d3c06060d8cafd2bbefe1fbb36956d9a17da0"
+hash = "da0e078aeefebea93cc658fc8e9d6c91b1dc0da26229240f3e7737267087792e"
 
 [[files]]
 file = "mods/aether.pw.toml"
@@ -72,6 +80,11 @@ hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
 metafile = true
 
 [[files]]
+file = "mods/crossstitch.pw.toml"
+hash = "899a506ec93d9bbc84e58aebeb369847493f97a4383e6691a5d51dbb9c2f6ea2"
+metafile = true
+
+[[files]]
 file = "mods/dark-loading-screen.pw.toml"
 hash = "5f7537e9f19357e3a5bcc077725f15a1694fb9f67c4cdfd96f3b993a85e397f1"
 metafile = true
@@ -104,6 +117,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
+metafile = true
+
+[[files]]
+file = "mods/fabricproxy-lite.pw.toml"
+hash = "b1a2f33743504db0099a8811b5a923ce56261d5aff2770d3a8812654dbd5e85d"
 metafile = true
 
 [[files]]
