@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".claude/settings.local.json"
-hash = "7adf9fe971b8bea29dd0c333e93263a0cf1d230f4f7ae19118b9675eafb083bc"
-
-[[files]]
-file = "README.md"
-hash = "f0b7af943b908e41876ad17a73d31718dfd02404873161e17126ba35129440c7"
-
-[[files]]
 file = "config/sereneseasons/seasons.toml"
 hash = "1815226e35087883383adf5d64f8b1af427a4f8818470cd963eeff436f36d436"
 
