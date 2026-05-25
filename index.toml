@@ -37,6 +37,11 @@ hash = "a7f7974f0526516e8c8e24fecf1544ce1e9017daf95540cf6b3a817c9eb352b4"
 metafile = true
 
 [[files]]
+file = "mods/better-animations-collection.pw.toml"
+hash = "7ae29ae1672d53db12bc02a6488935a46f8049ab46965e1f2f86403a840566fe"
+metafile = true
+
+[[files]]
 file = "mods/better-ladders.pw.toml"
 hash = "2ee6953247f3421cc2985f40ac87ee09781799d5b196bcd62dadc6e4a3e0995c"
 metafile = true
