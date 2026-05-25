@@ -97,6 +97,11 @@ hash = "38d70a352d8c52e8466a190867926c7f6f44776bd9b193ce64e3a3afec513014"
 metafile = true
 
 [[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "8c091c9a660b84f152e47c0d835d8865463ad79636264a68ca6d312399b46538"
+metafile = true
+
+[[files]]
 file = "mods/essential-commands.pw.toml"
 hash = "4f128957cb3715a76e340e35273e9b38e474a0a3798a325f1b0a998db9d5c0c1"
 metafile = true
@@ -339,4 +344,9 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "af20070dd9497817a83162c17b181a0a44f7213ea302d059a81c5aed02d0c877"
+metafile = true
+
+[[files]]
+file = "resourcepacks/vanilla-exp.pw.toml"
+hash = "17aff601578525cb2ee3e9722aaf6d201d49e3075bbb7dbe20496b25238b6bf3"
 metafile = true
