@@ -1,0 +1,13 @@
+name = "Hybrid Aquatic"
+filename = "[1.21.1-Fabric] Hybrid Aquatic 1.5.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HH4FjUqN/versions/6EfLaKkB/%5B1.21.1-Fabric%5D%20Hybrid%20Aquatic%201.5.5.jar"
+hash-format = "sha512"
+hash = "5708439c30c9a71246c8be4bd3bbefa8e488f969c2d7a24a00b971b889e5fc360505062f30b7975dd879a8c5462b5571f863aaabbd33c26b15d7ff5d20a4b224"
+
+[update]
+[update.modrinth]
+mod-id = "HH4FjUqN"
+version = "6EfLaKkB"

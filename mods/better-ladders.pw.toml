@@ -1,0 +1,13 @@
+name = "Better Ladders"
+filename = "betterladdersmod-0.0.3.1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CvgtCmGj/versions/SEevqmwi/betterladdersmod-0.0.3.1.21.jar"
+hash-format = "sha512"
+hash = "c337deb1b754a022b26560018ef36b113771e211e307ee74c953eecfa7bee6c48a457ed0f4f2bc82f12467875e279ad714228d77a6740cf1e1bf27d4ab61473f"
+
+[update]
+[update.modrinth]
+mod-id = "CvgtCmGj"
+version = "SEevqmwi"
