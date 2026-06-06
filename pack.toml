@@ -1,0 +1,16 @@
+name = "Fabric of Joy"
+author = "Keksiu"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5190089e52f5453605f0fac7a901f79bb785334c2528a9028cbaf88a40656814"
+
+[versions]
+fabric = "0.19.2"
+minecraft = "1.21.1"
+
+[options]
+acceptable-game-versions = ["1.21.1"]
