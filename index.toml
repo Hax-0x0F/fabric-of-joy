@@ -82,6 +82,11 @@ hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
 metafile = true
 
 [[files]]
+file = "mods/controlify.pw.toml"
+hash = "9acf9fdf592b704991d45b9f0aa9fe4e0667dce6809c6c70859a92eea831fe5d"
+metafile = true
+
+[[files]]
 file = "mods/crossstitch.pw.toml"
 hash = "899a506ec93d9bbc84e58aebeb369847493f97a4383e6691a5d51dbb9c2f6ea2"
 metafile = true
