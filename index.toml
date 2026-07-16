@@ -57,6 +57,11 @@ hash = "ddbb4bf26d15027847e52f5b30479470299b9a8c687697309f0535d658b9944b"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "6d4de3bf124c98a61c022477e07c8386940d4804001f5f71b322c9b1b74cb5c2"
+metafile = true
+
+[[files]]
 file = "mods/brb.pw.toml"
 hash = "d99fd98e6daf4ab8474c727d3e0a653ac800a714b3ef5799e7950129b4f255fe"
 metafile = true
@@ -104,6 +109,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "582070fa54fe1743a837c0351eee7ea4a79080e647d5438656d372ae9433b272"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "8b8f95c7151c8dcc29d1ec3df8b6080f36332ffc24dff74fd03dfbdb05cdf31a"
 metafile = true
 
 [[files]]
@@ -267,6 +277,11 @@ hash = "6ead9b7056bef41b7f5a4d852be2ea2250e678633ffe8c8c5244d14b92b5c38e"
 metafile = true
 
 [[files]]
+file = "mods/mru.pw.toml"
+hash = "b2c7431cec21a1819dc22695a62a158a581455c03844504a25d3e836d180c323"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "22ca1b774bd7f8e29a672455d8aedc1c4929c79c365cb18116173643cf22e183"
 metafile = true
@@ -307,6 +322,11 @@ hash = "f013040d2544856ca9f8fe4e07e040aa8a78c87ace3426743a8429d73cba81a3"
 metafile = true
 
 [[files]]
+file = "mods/prickle.pw.toml"
+hash = "122659d423e8fe5c47b4121bf382e5ceea0ea2c644cd0a08d577cf58ef55d495"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "5f6c009306036c61dc34c62cb45e3ed95274974ac0113ad159a75eba7ccd810c"
 metafile = true
@@ -344,6 +364,11 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "4ea85fa7d750bf5a167fe9652f2ac896d12ab068dacb8b04539e316ba5b74042"
+metafile = true
+
+[[files]]
+file = "mods/sound.pw.toml"
+hash = "1d0e54184bf7982547240482dd90ae24a34eea89927ca3b3f23b37e7b2c17574"
 metafile = true
 
 [[files]]
