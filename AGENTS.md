@@ -12,6 +12,9 @@ A packwiz pack for Minecraft 1.21.1 on Fabric, played on the server "szyszki" (`
 
 - A tag `vX.Y.Z` matching `version` in `pack.toml` triggers `.github/workflows/release.yml` on GitHub (the job is skipped on Gitea). It checks `packwiz refresh` changes nothing, builds a `.mrpack` and a Prism instance (`launcher/prism/`, with packwiz-installer-bootstrap v0.0.3 checked by SHA-256), publishes the tagged tree on GitHub Pages and creates the release.
 - The Prism instance installs from `https://hax-0x0f.github.io/fabric-of-joy/pack.toml` at every start, so players follow the latest release, not `main`.
+- Push the release commit and its tag in one push (`git push origin HEAD:main vX.Y.Z`). Gitea's mirror syncs on every
+  push; two pushes a second apart start two syncs, and GitHub rejects the slower one (`cannot lock ref`), dropping
+  whatever only it carried, such as the tag. A missing tag on GitHub: `tea api -X POST repos/haxtistic/fabric-of-joy/push_mirrors-sync`.
 - The `.mrpack` carries configs as overrides, which launchers may overwrite on update: `preserve` does not apply there.
 
 ## Files players own
