@@ -20,6 +20,10 @@ env:
   PACKWIZ: github.com/packwiz/packwiz@170b22d785959dda5876b54b7f16e1b807a57fb6
   BOOTSTRAP_URL: https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
   BOOTSTRAP_SHA256: a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c
+  # Shipped beside the bootstrap, which then starts it with --bootstrap-no-update instead of asking
+  # the GitHub API for a newer installer at every game start (60 anonymous requests an hour per address).
+  INSTALLER_URL: https://github.com/packwiz/packwiz-installer/releases/download/v0.5.14/packwiz-installer.jar
+  INSTALLER_SHA256: c9f646908d340d84773948a9a7d98bc1dae250d35e1016dc6e2b8459760b5598
   PACK_URL: https://hax-0x0f.github.io/fabric-of-joy/pack.toml
 
 jobs:
@@ -61,6 +65,8 @@ jobs:
           mkdir -p "build/$name/minecraft"
           curl -fsSL -o "build/$name/minecraft/packwiz-installer-bootstrap.jar" "$BOOTSTRAP_URL"
           echo "$BOOTSTRAP_SHA256  build/$name/minecraft/packwiz-installer-bootstrap.jar" | sha256sum -c
+          curl -fsSL -o "build/$name/minecraft/packwiz-installer.jar" "$INSTALLER_URL"
+          echo "$INSTALLER_SHA256  build/$name/minecraft/packwiz-installer.jar" | sha256sum -c
           sed "s|@PACK_URL@|$PACK_URL|" launcher/prism/instance.cfg > "build/$name/instance.cfg"
           sed -e "s|@MINECRAFT@|${{ steps.pack.outputs.minecraft }}|" -e "s|@FABRIC@|${{ steps.pack.outputs.fabric }}|" \
             launcher/prism/mmc-pack.json > "build/$name/mmc-pack.json"
