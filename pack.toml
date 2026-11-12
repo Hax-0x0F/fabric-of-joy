@@ -1,6 +1,6 @@
 name = "Fabric of Joy"
 author = "Keksiu"
-version = "1.1.0"
+version = "1.1.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -9,7 +9,7 @@ hash-format = "sha256"
 hash = "815fa4b027b014e058935ab8976255b9b64faf10a0ece4c028dcfff3ccccbb39"
 
 [versions]
-fabric = "0.19.2"
+fabric = "0.20.1"
 minecraft = "1.21.1"
 
 [options]

@@ -30,6 +30,9 @@ Marked `preserve = true` in `index.toml`, so packwiz-installer writes them only 
 - Stay on Minecraft 1.21.1 unless every mod with world content has a build for the target version.
 - Before an update, check that the mod id is unchanged (Hybrid Aquatic 1.6 renamed it, which would wipe its content from the world) and that every required dependency is in the pack.
 - After any change, `packwiz refresh` and commit `index.toml` with it.
+- Fabric Loader (`versions.fabric` in `pack.toml`) reaches players only through a new Prism instance: packwiz does not change
+  the loader of an existing one. Move it only when a mod needs it or a release asks players to re-import anyway,
+  and then to the newest stable loader (meta.fabricmc.net). Check each updated jar's `depends.fabricloader`.
 
 ## Docs
 
