@@ -9,6 +9,7 @@ onboardAccessibility:false
 skipMultiplayerWarning:true
 joinedFirstServer:true
 tutorialStep:none
+directionalAudio:true
 key_key.socialInteractions:key.keyboard.unknown
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.unknown

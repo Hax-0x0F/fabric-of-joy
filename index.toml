@@ -70,12 +70,12 @@ preserve = true
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
-hash = "5b813b9b757e82dd68713331a9209bae7fbe4967a8cec58bdfb19a1e8024bc9e"
+hash = "910fafe1ce7b673d3ddb7780606226d6ab24ac6c807dffd15c5cfef512989759"
 preserve = true
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap2.config"
-hash = "a8d41b345049457b3ccb2de1d4f871a88e042add6eec286ef0ab4aff42b15c8b"
+hash = "9d1ffd43f2c96f97a9edbac07edb28f5a642929c1b24557e0da2295852044598"
 preserve = true
 
 [[files]]
@@ -520,7 +520,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "a66efd4993aa1f18d584b82514f9f6f7260d9fa7e92ac5aee3b58664e45b1904"
+hash = "1a6a24918f17a9e58c0f885b42fd629b88c6335d466b1e1c75204413efce940b"
 preserve = true
 
 [[files]]
