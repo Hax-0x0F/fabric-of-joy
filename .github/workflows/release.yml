@@ -1,0 +1,88 @@
+# A tag vX.Y.Z (pushed to Gitea, mirrored here) becomes a release: a .mrpack, a Prism Launcher
+# instance, and the pack published on GitHub Pages, which the Prism instance installs from at every
+# start. The tag must match `version` in pack.toml.
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+env:
+  PACKWIZ: github.com/packwiz/packwiz@170b22d785959dda5876b54b7f16e1b807a57fb6
+  BOOTSTRAP_URL: https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
+  BOOTSTRAP_SHA256: a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c
+  PACK_URL: https://hax-0x0f.github.io/fabric-of-joy/pack.toml
+
+jobs:
+  release:
+    # Gitea Actions also reads .github/workflows; the release is built only on GitHub.
+    if: github.server_url == 'https://github.com'
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Version, Minecraft and Fabric from pack.toml
+        id: pack
+        run: |
+          version=$(sed -n 's/^version = "\(.*\)"/\1/p' pack.toml)
+          [ "v$version" = "$GITHUB_REF_NAME" ] || { echo "tag $GITHUB_REF_NAME, pack.toml says $version"; exit 1; }
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "minecraft=$(sed -n 's/^minecraft = "\(.*\)"/\1/p' pack.toml)" >> "$GITHUB_OUTPUT"
+          echo "fabric=$(sed -n 's/^fabric = "\(.*\)"/\1/p' pack.toml)" >> "$GITHUB_OUTPUT"
+
+      - name: Index matches the files
+        run: |
+          go install "$PACKWIZ"
+          ~/go/bin/packwiz refresh
+          git diff --exit-code index.toml pack.toml
+
+      - name: .mrpack
+        run: ~/go/bin/packwiz modrinth export -o "fabric-of-joy-${{ steps.pack.outputs.version }}.mrpack"
+
+      - name: Prism Launcher instance
+        run: |
+          name="fabric-of-joy-${{ steps.pack.outputs.version }}-prism"
+          mkdir -p "build/$name/minecraft"
+          curl -fsSL -o "build/$name/minecraft/packwiz-installer-bootstrap.jar" "$BOOTSTRAP_URL"
+          echo "$BOOTSTRAP_SHA256  build/$name/minecraft/packwiz-installer-bootstrap.jar" | sha256sum -c
+          sed "s|@PACK_URL@|$PACK_URL|" launcher/prism/instance.cfg > "build/$name/instance.cfg"
+          sed -e "s|@MINECRAFT@|${{ steps.pack.outputs.minecraft }}|" -e "s|@FABRIC@|${{ steps.pack.outputs.fabric }}|" \
+            launcher/prism/mmc-pack.json > "build/$name/mmc-pack.json"
+          (cd build && zip -qr "../$name.zip" "$name")
+
+      - name: Pack tree for Pages
+        run: |
+          mkdir -p site
+          git archive HEAD | tar -x -C site
+          rm -rf site/.github site/launcher
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: pages
+        uses: actions/deploy-pages@v4
+
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" --verify-tag --title "Fabryka Radości ${{ steps.pack.outputs.version }}" \
+            --notes "Prism Launcher: import the .zip (Add Instance, Import); it updates itself from the latest release at every start. Other launchers: the .mrpack." \
+            fabric-of-joy-*.mrpack fabric-of-joy-*-prism.zip

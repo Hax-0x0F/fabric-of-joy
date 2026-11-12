@@ -1,19 +1,43 @@
-# Fabric of Joy
+# Fabryka Radości
 
-A [packwiz](https://packwiz.infra.link/) modpack for Minecraft 1.21.1 on Fabric, played on the server "szyszki".
+Paczka modów do Minecrafta, na której gramy na serwerze **Szyszki**.
 
-## Playing
+## Jak zacząć
 
-Install the pack in a launcher that runs packwiz-installer (for example Prism Launcher's pre-launch command) from:
+1. Zainstaluj **Prism Launcher** ze strony [prismlauncher.org](https://prismlauncher.org). Jest darmowy.
+2. Otwórz Prism i dodaj swoje konto Minecraft (prawy górny róg: **Konta**).
+3. Pobierz plik kończący się na **`-prism.zip`** z [tej strony](https://github.com/Hax-0x0F/fabric-of-joy/releases/latest) (sekcja *Assets*).
+4. W Prism kliknij **Dodaj instancję**, potem **Importuj** i wybierz pobrany plik.
+5. Kliknij **Uruchom**. Za pierwszym razem gra pobiera mody, to potrwa kilka minut.
+6. W grze wejdź w **Gra wieloosobowa**. Serwer **Szyszki** już tam jest.
+   Gdyby go nie było: **Dodaj serwer**, adres `szyszki.mc.tehom.eu`.
 
-```
-https://raw.githubusercontent.com/Hax-0x0F/fabric-of-joy/main/pack.toml
-```
+## Pierwsze wejście na serwer
 
-## Changes
+Serwer prosi każdego o hasło, żeby nikt nie grał na Twoim nicku.
 
-This GitHub repository is a read-only mirror. The source is `git.reprostar.pl/haxtistic/fabric-of-joy`, and every push there overwrites this copy, so changes made here (edits, pull requests) are lost. Send suggestions as issues or to the owner.
+- Za pierwszym razem wpisz na czacie: `/register twojehaslo twojehaslo` (hasło ma mieć co najmniej 12 znaków).
+- Przy każdym kolejnym wejściu: `/login twojehaslo`.
 
-The server runs a pinned commit of this pack, not `main`: a change reaches the server only when the homelab moves its pin.
+## Klawisze
 
-Nothing secret belongs in this repository. It is public: server credentials (bot tokens, databases) are kept with the server, not in the pack.
+Przy pierwszych wejściach na czacie pokaże się lista najważniejszych klawiszy. Żeby zobaczyć ją jeszcze raz, wpisz `/trigger klawisze`.
+
+| Klawisz | Co robi |
+|---|---|
+| **V** (przytrzymaj) | mówisz na czacie głosowym |
+| **B** | plecak |
+| **H** | akcesoria |
+| **M** / **J** | mapa / minimapa |
+| **N** | punkty na mapie |
+
+Klawisze możesz zmienić w **Opcje → Sterowanie**. Twoje zmiany zostaną po aktualizacji.
+
+## Aktualizacje
+
+Nic nie musisz robić. Przy każdym starcie gra sama pobiera najnowszą wersję paczki.
+
+## Masz inny launcher niż Prism?
+
+Na [tej samej stronie](https://github.com/Hax-0x0F/fabric-of-joy/releases/latest) jest plik **`.mrpack`** dla Modrinth App i innych launcherów. Przy nim każdą aktualizację trzeba zaimportować ręcznie.
+

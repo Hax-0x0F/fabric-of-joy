@@ -1,0 +1,17 @@
+{
+  "fabryka.keys.title": "— Key controls —",
+  "fabryka.keys.ptt": "talk (hold)",
+  "fabryka.keys.voice_menu": "voice menu",
+  "fabryka.keys.voice_group": "groups",
+  "fabryka.keys.backpack": "backpack",
+  "fabryka.keys.tool": "tool from backpack",
+  "fabryka.keys.accessories": "accessories",
+  "fabryka.keys.map": "map",
+  "fabryka.keys.minimap": "minimap",
+  "fabryka.keys.waypoints": "waypoints",
+  "fabryka.keys.quiver": "quiver (hold + scroll)",
+  "fabryka.keys.cart": "hitch cart",
+  "fabryka.keys.reopen": "[Show again: /trigger klawisze]",
+  "fabryka.keys.dismiss": "[Don't show again]",
+  "fabryka.keys.hidden": "Hints turned off. Bring them back with /trigger klawisze"
+}

@@ -1,0 +1,17 @@
+{
+  "fabryka.keys.title": "— Najważniejsze klawisze —",
+  "fabryka.keys.ptt": "mów (przytrzymaj)",
+  "fabryka.keys.voice_menu": "menu głosu",
+  "fabryka.keys.voice_group": "grupy",
+  "fabryka.keys.backpack": "plecak",
+  "fabryka.keys.tool": "narzędzie z plecaka",
+  "fabryka.keys.accessories": "akcesoria",
+  "fabryka.keys.map": "mapa",
+  "fabryka.keys.minimap": "minimapa",
+  "fabryka.keys.waypoints": "punkty trasy",
+  "fabryka.keys.quiver": "kołczan (przytrzymaj + kółko)",
+  "fabryka.keys.cart": "zaczep wózek",
+  "fabryka.keys.reopen": "[Pokaż ponownie: /trigger klawisze]",
+  "fabryka.keys.dismiss": "[Nie pokazuj więcej]",
+  "fabryka.keys.hidden": "Podpowiedzi wyłączone. Przywrócisz je: /trigger klawisze"
+}
