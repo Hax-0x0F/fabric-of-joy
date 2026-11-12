@@ -1,0 +1,41 @@
+{
+  "update_rate": 600,
+  "max_view_distance": 16,
+  "min_view_distance": 6,
+  "max_sim_distance": 16,
+  "min_sim_distance": 6,
+  "max_chunk_ticking_distance": 8,
+  "min_chunk_ticking_distance": 2,
+  "allow_on_client": false,
+  "broadcast_to_ops": false,
+  "broadcast_changes_default": "NONE",
+  "broadcast_changes": [],
+  "broadcast_lock_default": "OPS",
+  "broadcast_lock": [],
+  "rules": [
+    {
+      "type": "MSPT",
+      "min": 60,
+      "target": "VIEW",
+      "step": -2
+    },
+    {
+      "type": "MSPT",
+      "min": 50,
+      "target": "VIEW",
+      "step": -1
+    },
+    {
+      "type": "MSPT",
+      "max": 40,
+      "target": "VIEW",
+      "step": 1
+    },
+    {
+      "type": "MSPT",
+      "max": 30,
+      "target": "VIEW",
+      "step": 2
+    }
+  ]
+}

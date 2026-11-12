@@ -19,7 +19,11 @@ A packwiz pack for Minecraft 1.21.1 on Fabric, played on the server "szyszki" (`
 
 ## Files players own
 
-Marked `preserve = true` in `index.toml`, so packwiz-installer writes them only when missing: `options.txt`, `servers.dat`, the JourneyMap minimap presets, `config/seasonhud-client.toml`, `config/enchdesc.json`, `config/voicechat/voicechat-client.properties`, `config/toughasnails/client.toml`. A change to them reaches new installs only. Server rules (Serene Seasons, Tough as Nails temperature and thirst) are not preserved.
+Marked `preserve = true` in `index.toml`, so packwiz-installer writes them only when missing: `options.txt`, `servers.dat`, the JourneyMap minimap presets, `config/seasonhud-client.toml`, `config/enchdesc.json`, `config/voicechat/voicechat-client.properties`, `config/toughasnails/client.toml`, `config/sounds/{ui,chat}.json` (interface and chat-typing sounds at half the mod's volume). A change to them reaches new installs only.
+
+## Server rules
+
+Not preserved, so every pack update writes them and the server never runs on defaults a mod regenerated. They are the server's live files with the owner's decisions of 2026-11-12 (homelab HOME-102; reasons in homelab `docs/research/minecraft-server-practices-2026-11-12.md`): Serene Seasons (`sub_season_duration = 4`) with SeasonHUD's `sub_season_length` matching it, Tough as Nails temperature and thirst, Waystones (warp stones do not wear out), JourneyMap server (`journeymap/server/6.0/`: waypoint teleport for ops), Essential Commands (permissions through LuckPerms; deleting all player data off), AdaptiveView, Supplementaries, Ledger (90 days), Chunky (resumes after a restart), voice chat server (no recording). Change them here, not on the server. Never add a file with a secret (mc2discord, FabricProxy-Lite, LuckPerms, SkinRestorer): those stay with the server.
 
 - `options.txt` holds only the pack's choices and the key layout, where every key does one thing (Fabric gives one key to one binding). Minecraft fills in the rest.
 - Never ship a player's own copy of these files, nor JourneyMap's `journeymap.core.config` or data, voice chat caches, Sodium's fingerprint or Controlify's device profiles.

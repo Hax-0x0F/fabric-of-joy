@@ -1,9 +1,25 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/EssentialCommands.properties"
+hash = "f24573cbd6815a0b21b625b63fa874ebbe988673ddb397a4b6b2e0247ffa5c30"
+
+[[files]]
+file = "config/adaptiveview.json"
+hash = "322b017498af953832bb6a9161064b4f459bf82afe882a829a761e6425091417"
+
+[[files]]
+file = "config/chunky/config.json"
+hash = "6c103db0800e63ba88c2296e42fb8f5e631f70ea17b8c5d77bef0166d0662d96"
+
+[[files]]
 file = "config/enchdesc.json"
 hash = "650f05dcb6db5a42acffde5fb9a5716e7943d3b6975525e4707748db7c512df7"
 preserve = true
+
+[[files]]
+file = "config/ledger.toml"
+hash = "e0c795b6d3f939aadc67b0642c2cdd3e3753a39629b5cc55e3d855994f61a913"
 
 [[files]]
 file = "config/openloader/packs/fabryka-klawisze/assets/fabryka/lang/en_us.json"
@@ -47,8 +63,26 @@ hash = "b357db1ae080738c8acda15fd14352b4d2e95b5eba77989ea828eb23d9a7f792"
 preserve = true
 
 [[files]]
+file = "config/seasonhud-server.toml"
+hash = "79190ec9254238af301b37a907dd31ac76a9dae065e79095b2316183759f83e8"
+
+[[files]]
 file = "config/sereneseasons/seasons.toml"
-hash = "1815226e35087883383adf5d64f8b1af427a4f8818470cd963eeff436f36d436"
+hash = "499904e19778a6e7feec7028054a0d393b3fd5a81e6ecc75d05796c72fbf4df4"
+
+[[files]]
+file = "config/sounds/chat.json"
+hash = "e77c7fc035e5e28d4e96a3c2de87267199ec3bfeb817feb8fc446fbe68ef101d"
+preserve = true
+
+[[files]]
+file = "config/sounds/ui.json"
+hash = "f185b287a8f49031175741ba6753b1030c8af3cc43944ebd78dab91b07602d80"
+preserve = true
+
+[[files]]
+file = "config/supplementaries-common.json"
+hash = "1fb7b6fb8b28d92ffc4885eba3a33b391a413e10f3562ddfc6386af608eef3ee"
 
 [[files]]
 file = "config/toughasnails/client.toml"
@@ -69,6 +103,14 @@ hash = "82c35024514d310998e4f7c2c040d519bd9df9b170fad47359a97448b9c65743"
 preserve = true
 
 [[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "90840da6caf8951b00b0b33749b8b806cabfcd1b9414368db00252b11391e327"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "fecd5a68b2f394bba3797ed4add7f0551aa500a427e3a450e98bcabe6d0a89c4"
+
+[[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
 hash = "910fafe1ce7b673d3ddb7780606226d6ab24ac6c807dffd15c5cfef512989759"
 preserve = true
@@ -77,6 +119,30 @@ preserve = true
 file = "journeymap/config/6.0/journeymap.minimap2.config"
 hash = "9d1ffd43f2c96f97a9edbac07edb28f5a642929c1b24557e0da2295852044598"
 preserve = true
+
+[[files]]
+file = "journeymap/server/6.0/journeymap.server.aether~the_aether.config"
+hash = "6781590a71cee0f9e1e1bdedf924b0adf8af82e61913cd7c8bce3cd5b6a1d513"
+
+[[files]]
+file = "journeymap/server/6.0/journeymap.server.default.config"
+hash = "9b590746ddf19bd81f711dfdee87857b7a3b3e5abfb3d0a0025d5179f8cdd319"
+
+[[files]]
+file = "journeymap/server/6.0/journeymap.server.global.config"
+hash = "b9946ed4990a319fa21544274d809a0010a0310b8b11fec9bf4b927a7b99ec84"
+
+[[files]]
+file = "journeymap/server/6.0/journeymap.server.minecraft~overworld.config"
+hash = "5ec934a8a46a9479062abf3b15ca4265240f2597f53d804f6aa56e19fecb51d8"
+
+[[files]]
+file = "journeymap/server/6.0/journeymap.server.minecraft~the_end.config"
+hash = "05f53a73547f000191cbfd891e95ee31b247b6b020deab54ab8a8b06e99ea3ad"
+
+[[files]]
+file = "journeymap/server/6.0/journeymap.server.minecraft~the_nether.config"
+hash = "f3ac2b63710c624c9cc8a41c630c3a788c5525aca8140d1cb85a6f62abecb826"
 
 [[files]]
 file = "mods/adaptiveview.pw.toml"

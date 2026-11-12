@@ -1,12 +1,12 @@
 name = "Fabric of Joy"
 author = "Keksiu"
-version = "1.1.5"
+version = "1.1.6"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "4cdd9cb953dcb51e41265c234b530600b7c0cd1a0c879ffc537976de495a5b6e"
+hash = "49718211136ac1e2e54acdaccdacd91565c5dd4fe25d5630621eb0e590cfe43e"
 
 [versions]
 fabric = "0.20.1"
