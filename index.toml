@@ -70,12 +70,12 @@ preserve = true
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
-hash = "ee0e3703f653bc8ad5344b77688f7e905952ae320b2830fe443c02f35e5fdd0d"
+hash = "5b813b9b757e82dd68713331a9209bae7fbe4967a8cec58bdfb19a1e8024bc9e"
 preserve = true
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap2.config"
-hash = "03d9d4ac24d6e7bc39ae89c7bdac3d79151a77d4a4dcfa407af947b9ac8661f2"
+hash = "a8d41b345049457b3ccb2de1d4f871a88e042add6eec286ef0ab4aff42b15c8b"
 preserve = true
 
 [[files]]
