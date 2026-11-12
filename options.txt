@@ -1,8 +1,9 @@
 version:3955
-guiScale:0
+guiScale:3
 renderDistance:12
+fov:0.5
 enableVsync:false
-maxFps:144
+maxFps:140
 resourcePacks:["vanilla","fabric","file/§6§lVanilla Experience+§0.zip"]
 onboardAccessibility:false
 skipMultiplayerWarning:true
