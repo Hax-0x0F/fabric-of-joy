@@ -112,37 +112,37 @@ hash = "fecd5a68b2f394bba3797ed4add7f0551aa500a427e3a450e98bcabe6d0a89c4"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
-hash = "910fafe1ce7b673d3ddb7780606226d6ab24ac6c807dffd15c5cfef512989759"
+hash = "70c4f0ed8f10d5ea67adaa40ccc78a299faecf973aeeedac417d2359da6fc3ea"
 preserve = true
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap2.config"
-hash = "9d1ffd43f2c96f97a9edbac07edb28f5a642929c1b24557e0da2295852044598"
+hash = "4aeae8991c5942abffcb8f75ef61d1583006386a379f8ac8051faca08285f251"
 preserve = true
 
 [[files]]
 file = "journeymap/server/6.0/journeymap.server.aether~the_aether.config"
-hash = "6781590a71cee0f9e1e1bdedf924b0adf8af82e61913cd7c8bce3cd5b6a1d513"
+hash = "f6503dfa903cea89a876d4296287a7f073c484da60d3bb0c44b1103dbefc03fb"
 
 [[files]]
 file = "journeymap/server/6.0/journeymap.server.default.config"
-hash = "9b590746ddf19bd81f711dfdee87857b7a3b3e5abfb3d0a0025d5179f8cdd319"
+hash = "d66619d91c3d25be5e46518a92c0b3db5e152abf50430d80c0927743415cdc24"
 
 [[files]]
 file = "journeymap/server/6.0/journeymap.server.global.config"
-hash = "b9946ed4990a319fa21544274d809a0010a0310b8b11fec9bf4b927a7b99ec84"
+hash = "0b21d32bd8640e864b268d5afecee20713ee3bdcad4dd8186cbbe57665b91afa"
 
 [[files]]
 file = "journeymap/server/6.0/journeymap.server.minecraft~overworld.config"
-hash = "5ec934a8a46a9479062abf3b15ca4265240f2597f53d804f6aa56e19fecb51d8"
+hash = "8a24570f88caac22d510dd7e39ca1fd98c2007d4fe69d8c3b348fd7b02256ad8"
 
 [[files]]
 file = "journeymap/server/6.0/journeymap.server.minecraft~the_end.config"
-hash = "05f53a73547f000191cbfd891e95ee31b247b6b020deab54ab8a8b06e99ea3ad"
+hash = "456a8642a4ff288761d3d6c96adc5fa811f65d723dc43e5dcdaf9f95bc9e57bc"
 
 [[files]]
 file = "journeymap/server/6.0/journeymap.server.minecraft~the_nether.config"
-hash = "f3ac2b63710c624c9cc8a41c630c3a788c5525aca8140d1cb85a6f62abecb826"
+hash = "9c5dbf20ad861af70415b22ef1da6bf9efc08a7d50443f844c9c1bebc13c7ea2"
 
 [[files]]
 file = "mods/adaptiveview.pw.toml"
