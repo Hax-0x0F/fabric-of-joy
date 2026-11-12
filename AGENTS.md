@@ -36,7 +36,10 @@ Not preserved, so every pack update writes them and the server never runs on def
 
 - Stay on Minecraft 1.21.1 unless every mod with world content has a build for the target version.
 - Before an update, check that the mod id is unchanged (Hybrid Aquatic 1.6 renamed it, which would wipe its content from the world) and that every required dependency is in the pack.
-- After any change, `packwiz refresh` and commit `index.toml` with it.
+- After any change, `packwiz refresh` and commit `index.toml` with it. Where packwiz cannot be installed, `tools/pw.py`
+  does the Modrinth-only subset: `python3 tools/pw.py . update <slug>…`, `add <modrinth-slug> <side>`, `remove <slug>`,
+  `deps` (every required dependency pinned), `refresh [paths to preserve]`. Its `index.toml` is byte-identical to
+  packwiz's, and the release workflow re-checks it with the real `packwiz refresh`.
 - Fabric Loader (`versions.fabric` in `pack.toml`) reaches players only through a new Prism instance: packwiz does not change
   the loader of an existing one. Move it only when a mod needs it or a release asks players to re-import anyway,
   and then to the newest stable loader (meta.fabricmc.net). Check each updated jar's `depends.fabricloader`.

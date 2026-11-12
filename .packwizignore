@@ -4,3 +4,4 @@ CLAUDE.md
 # The release workflow and the Prism Launcher instance template are not part of the pack.
 /.github/
 /launcher/
+/tools/
